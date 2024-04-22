@@ -3,6 +3,10 @@
   "displayName": "CodePal AI Helper",
   "description": "CodePal AI Helper is a tool for code documentig",
   "publisher": "andruhovski",
+  "repository": {
+    "url": "https://github.com/andruhovski/a2-codepal-helper",
+    "type":"git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.88.0"
