@@ -1,8 +1,8 @@
 # Change Log
 
-All notable changes to the "a2-codepal-helper" extension will be documented in this file.
+## [0.0.2]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Added ability to manage API keys
 
 ## [0.0.1]
 

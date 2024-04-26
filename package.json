@@ -1,11 +1,11 @@
 {
   "name": "a2-codepal-helper",
   "displayName": "CodePal AI Helper",
-  "description": "CodePal AI Helper is a tool for code documentig",
+  "description": "CodePal.ai Unofficial Extension",
   "publisher": "andruhovski",
   "repository": {
     "url": "https://github.com/andruhovski/a2-codepal-helper",
-    "type":"git"
+    "type": "git"
   },
   "version": "0.0.1",
   "engines": {
@@ -17,10 +17,20 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "a2-codepal-helper.runCodeDocumentation",
-      "title": "Run Code Documentation"
-    }]
+    "commands": [
+      {
+        "command": "a2-codepal-helper.runCodeDoc",
+        "title": "A2 CodePal: Code Documentation"
+      },
+      {
+        "command": "a2-codepal-helper.setApiKey",
+        "title": "A2 CodePal: Set API Key"
+      },
+      {
+        "command": "a2-codepal-helper.delApiKey",
+        "title": "A2 CodePal: Clear API Key"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
